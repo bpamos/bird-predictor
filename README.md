@@ -17,8 +17,18 @@ Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-p
 
 # Bee Eater Web App:
 
+The Bee Eater Web app uses a ResNet34 transfer learning model to predict 3 different Bee Eater bird classes.
+The bird images are extracted from google image search urls. 
+There are 480 bird images (384 test set, 96 validation set) used to train the model.
+The model was trained with 2 epochs on an unfrozen ResNet34 transfer learning model using SGD to find the learning rate.
+The model has a final error rate of 10.4167%
+
+
+
+
 * Web App is not currently deployed, the provided link will not work
 The Bee Eater app can be found https://bird-predictor.onrender.com
 
 * Web app image:
+
 ![](images/bee-eater-app-image.PNG)
