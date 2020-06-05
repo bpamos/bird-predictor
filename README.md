@@ -17,7 +17,8 @@ Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-p
 
 # Bee Eater Web App:
 
-* Web App is currently not deployed, link will not work
+* Web App is not currently deployed, the provided link will not work
 The Bee Eater app can be found https://bird-predictor.onrender.com
 
+* Web app image:
 ![](images/bee-eater-app-image.PNG)
